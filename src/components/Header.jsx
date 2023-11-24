@@ -11,18 +11,19 @@ import Button from 'react-bootstrap/esm/Button';
 function Header() {
   return (
     <div className="containers">
-      <div className="container-img"></div>
+      <img className="container-img" src="https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg"/>
 
-      <div className="logo" style={{ display: "flex" }}>
+      <div className="logo" style={{ display: "flex",justifyContent:"space-between" }}>
         <div className="logo-image">
         
           <Link to='/'><img src={logo} alt="not found"/></Link>
+          
          
           {/* <Link to="/home"><Button>heyyy</Button></Link> */}
         </div>
         
 
-        <div className="right" style={{ display: "flex",justifyContent:"flex-end" }}>
+        <div className="right" style={{ display: "flex"}}>
         
           <DropdownButton data-bs-theme="dark" className="btn-primary"  title={<span><PiTranslate/>English</span>}>
             <Dropdown.Item href="#/action-1">Action</Dropdown.Item>

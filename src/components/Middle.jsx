@@ -5,8 +5,8 @@ import Col from "react-bootstrap/esm/Col";
 function Middle() {
   return (
     <div className="body1">
-      <div >
-        <Row xs={1} md={2} lg={2} className="g-4">
+      
+        <Row xs={1} md={1} lg={2} className="g-4">
           <Col className="title-query">
             <h1>Enjoy on your TV</h1>
             <p>
@@ -26,7 +26,7 @@ function Middle() {
             </div>
           </Col>
         </Row>
-      </div>
+      
     </div>
   );
 }

@@ -22,14 +22,14 @@ function Footer() {
           <li>Placeemnts</li>
         </div>
         <div className="about">
-          <h2>For Business</h2>
+          <h2>Business</h2>
           <li>Suppliers</li>
           <li>Coperate</li>
           <li>Our Company</li>
           <li>Our Company</li>
         </div>
         <div className="about">
-          <h2>Order and pickup</h2>
+          <h2>Order</h2>
 
           <li>Order Now</li>
           <li>Delivery</li>
@@ -38,7 +38,7 @@ function Footer() {
         </div>
       </div>
       <hr style={{ marginBottom: "35px" }}></hr>
-      <div className="para2" style={{ display: "flex", marginLeft: "310px" }}>
+      <div className="para2" style={{ display: "flex"}}>
         <p>Privacy Notice</p>
         <p>Terms of use</p>
         <p>CA Supply Chain</p>
@@ -46,7 +46,7 @@ function Footer() {
       </div>
       <p
         style={{
-          marginLeft: "100px",
+          // marginLeft: "100px",
           color: "white",
           paddingBottom: "20px",
           textAlign: "center",

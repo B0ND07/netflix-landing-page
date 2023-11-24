@@ -6,10 +6,10 @@ function Middle2() {
   return (
     <div className="body1">
       <div>
-        <Row xs={1} md={2} lg={2} className="g-4">
+        <Row xs={1} md={1} lg={2} className="g-4">
           <Col>
-            <div className="photo">
-              <video autoPlay muted loop>
+            <div className="photo" style={{ marginLeft: "15%" }}>
+              <video className="video" autoPlay muted loop>
                 <source
                   type="video/mp4"
                   src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"

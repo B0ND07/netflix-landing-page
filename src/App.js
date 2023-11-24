@@ -10,7 +10,7 @@ import Routerr from "./components/Routerr";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Header />
       <Middle />
       <Middle2 />
