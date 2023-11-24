@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 import logo from "./netflix.svg";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
